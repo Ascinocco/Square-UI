@@ -64,6 +64,8 @@
     "build-js": "node scripts/build.js",
     "eslinter": "eslint src/",
     "stylelinter": "stylelint 'src/**/*.scss'",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
     "build": "npm-run-all build-css build-js",
     "start": "npm-run-all -p watch-css start-js",
     "test": "node scripts/test.js --env=jsdom",
