@@ -1,11 +1,13 @@
 import React from 'react';
 
-import Icon from '../components/internal/Icon';
+import CardGallery from '../components/gallery/Card';
+
 import styles from './App.css';
+
 
 const App = () => (
   <div className={styles.app}>
-    Hi Anthony. This is a linked in icon: <Icon name={'linkedin'} />
+    <CardGallery />
   </div>
 );
 
