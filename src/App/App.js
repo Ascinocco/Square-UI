@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Icon from './components/internal/Icon';
+import Icon from '../components/internal/Icon';
 import styles from './App.css';
 
 const App = () => (
